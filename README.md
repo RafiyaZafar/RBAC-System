@@ -48,7 +48,7 @@ The Role-Based Access Control (RBAC) System is a web application that allows adm
     ```
 
 ## 📂 Project Structure
-```plaintext
+```
 src/
 ├── components/          # Reusable components (e.g.,  AddRoleModal, NavBar, SideNav, RoleTable, UserTable,)
 ├── pages/               # Pages (e.g., Dashboard, Roles, Users, Login)
@@ -56,6 +56,7 @@ src/
 ├── App.js               # Main App component
 ├── index.js             # React entry point
 └── App.css              # Global styles
+```
 
 ## 🌐 Mock API Endpoints
 This project uses a mock API for demonstration purposes. You can find the mock API service in the `src/services/` directory.
@@ -69,13 +70,13 @@ This project uses a mock API for demonstration purposes. You can find the mock A
 
 
 ### Dashboard
-![Dashboard](Screenshots\screenshot1.png)
+![Dashboard](Screenshots/screenshot1.png)
 
 ### Roles Page
-![Roles Page](Screenshots\screenshot2.png)
+![Roles Page](Screenshots/screenshot2.png)
 
 ### Users Page
-![Users Page](Screenshots\screenshot3.png)
+![Users Page](Screenshots/screenshot3.png)
 
 
 ## 🤝 Contributing
