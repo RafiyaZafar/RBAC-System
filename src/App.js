@@ -12,7 +12,7 @@ import SideNav from "./components/SideNav";
 import Navbar from "./components/Navbar";
 import Login from "./pages/Login";
 import { Box, useMediaQuery, useTheme  } from "@mui/material";
-import TopNav from "./components/TopNav";
+
 
 const App = () => {
   const [isAuthenticated, setIsAuthenticated] = useState(false);
@@ -28,7 +28,7 @@ const App = () => {
  
   const isMobile = useMediaQuery(theme.breakpoints.down("sm"));
   const isTablet = useMediaQuery(theme.breakpoints.between("sm", "md"));
-  const isDesktop = useMediaQuery(theme.breakpoints.up("md"));
+  
 
   const padding = isMobile ? "10px" : isTablet ? "20px" : "30px"; 
   const paddingTop = isMobile ? "60px" : isTablet ? "70px" : "80px"; 

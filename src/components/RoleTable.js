@@ -91,7 +91,7 @@ const RoleTable = () => {
 
   
   const isMobile = useMediaQuery(theme.breakpoints.down("sm"));
-  const isTablet = useMediaQuery(theme.breakpoints.between("sm", "md"));
+  
 
   
   const handleOpenModal = (role = null) => {
