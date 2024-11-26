@@ -47,6 +47,11 @@ The Role-Based Access Control (RBAC) System is a web application that allows adm
     http://localhost:3000
     ```
 
+### 🔐 Login Information Use any of the following hardcoded usernames and passwords to log in: 
+- **admin** / **admin123** 
+- **superadmin** / **superadmin123** 
+- **manager** / **manager123**
+
 ## 📂 Project Structure
 ```
 src/
