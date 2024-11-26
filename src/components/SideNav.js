@@ -1,9 +1,5 @@
-import React, { useEffect, useState }from "react";
 import { NavLink } from "react-router-dom";
 import { Box, List, ListItem, ListItemText, useMediaQuery, useTheme } from "@mui/material";
-import TopNav from "./TopNav";
-
-
 
 const SideNav = ({ isSidebarOpen }) => {
   const theme = useTheme();
