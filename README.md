@@ -48,7 +48,7 @@ The Role-Based Access Control (RBAC) System is a web application that allows adm
     ```
 
 ## 📂 Project Structure
-```plaintext
+
 src/
 ├── components/          # Reusable components (e.g.,  AddRoleModal, NavBar, SideNav, RoleTable, UserTable,)
 ├── pages/               # Pages (e.g., Dashboard, Roles, Users, Login)
